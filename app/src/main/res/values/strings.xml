@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">prueba_map</string>
+    <string name="email_login">Email</string>
+    <string name="email_password">Password</string>
 </resources>
