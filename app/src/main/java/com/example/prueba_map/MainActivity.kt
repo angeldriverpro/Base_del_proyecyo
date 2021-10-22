@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         BtnCliente.setOnClickListener{
 
-            val intent = Intent(this,login::class.java)
+            val intent = Intent(this,home_cliente::class.java)
 
             val bundle = Bundle()
             bundle.putString("actor","cliente")

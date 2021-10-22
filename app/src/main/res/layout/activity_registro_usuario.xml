@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".registro_usuario">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="222dp"
+        android:layout_height="157dp"
+        app:srcCompat="@drawable/registro_bandera_"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="@string/Nombre"
+        android:inputType="textPersonName"
+        android:paddingHorizontal="10dp"
+        android:textSize="14sp" />
+    <EditText
+        android:id="@+id/etCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="@string/Correo"
+        android:inputType="textPersonName"
+        android:paddingHorizontal="10dp"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/etCiudad"
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="@string/Ciudad"
+        android:inputType="textPersonName"
+        android:paddingHorizontal="10dp"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/etTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="@string/telefono"
+        android:inputType="phone"
+        android:paddingHorizontal="10dp"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/etContraseña"
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:layout_marginBottom="80dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="@string/Contraseña"
+        android:inputType="textPassword"
+        android:paddingHorizontal="10dp"
+        android:textSize="14sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Switch
+            android:id="@+id/swAcepto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Acepto terminos y condiciones"
+            android:paddingHorizontal="40dp"
+            android:layout_marginBottom="60dp"/>
+
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnRegistrarmeFinal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@color/rojo"
+        android:elevation="20dp"
+        android:text="REGISTRARME"
+        android:textColor="@color/white"
+        app:cornerRadius="12dp" />
+
+
+
+
+</LinearLayout>
